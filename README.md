@@ -80,8 +80,8 @@ API RESTful para gerenciamento de clientes. Permite listar, criar, visualizar, a
 |-------------|----------|-------------|----------------------------------|
 | name        | string   | ✅           | Nome do cliente                  |
 | document    | string   | ✅           | CPF ou identificador único       |
-| birth_date  | date     | ❌           | Data de nascimento (YYYY-MM-DD)  |
-| sex         | string   | ❌           | "M" ou "F"                        |
+| birth_date  | date     | ✅           | Data de nascimento (YYYY-MM-DD)  |
+| sex         | string   | ✅           | "M" ou "F"                        |
 | city_id     | integer  | ✅           | ID da cidade relacionada         |
 
 ---
@@ -127,8 +127,8 @@ API RESTful para gerenciamento de clientes. Permite listar, criar, visualizar, a
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
+git clone https://github.com/elvis-araujo/test-desenvolvedor-php
+cd test-desenvolvedor-php
 ```
 
 ### 2. Instalar dependências
