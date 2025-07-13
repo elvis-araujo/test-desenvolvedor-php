@@ -81,7 +81,7 @@ class CustomerWebController extends Controller
         ])->put("{$this->baseUrl}/{$id}", $request->all());
 
         if ($response->failed()) {
-            dd($response->body());
+            // dd($response->body());
             return back()
                 ->with('error', 'Erro ao atualizar cliente.')
                 ->withErrors($response->json('errors'))

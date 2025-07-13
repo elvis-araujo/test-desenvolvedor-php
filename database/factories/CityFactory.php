@@ -12,7 +12,6 @@ class CityFactory extends Factory
 {
     public function definition(): array
     {
-        // Aqui usamos uma cidade aleatória, se quiser simular
         return [
             'name' => $this->faker->unique()->city,
             'state_id' => State::factory(),
