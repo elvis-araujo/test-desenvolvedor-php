@@ -166,7 +166,7 @@ A aplicação estará disponível em: [http://localhost:8000](http://localhost:8
 
 ## 🧪 Testes (opcional)
 
-Caso tenha criado testes, execute:
+Execute:
 
 ```bash
 php artisan test
